@@ -27,7 +27,7 @@ long long Fibonacci(unsigned int n){
 对于斐波那契数列的上述解法，存在重复的计算。而且当ｎ越大，重复计算越大。这一块时间效率是可以提高的。
 
 
-* 改进方法１：
+* 改进方法１：时间复杂度O(n)
 ```
 long long Fibonacci(unsigned int n)
 {
@@ -47,3 +47,11 @@ long long Fibonacci(unsigned int n)
 }
 ```
 改进后，由于add1与add2在每次计算中起到暂存的作用，避免了重复计算。之前是随着n的增大，计算量n的指数方。现在为O(n)。空间复杂度也由O(ｎ)到O(1)。
+
+*　装ｘ方法，时间复杂度O(logn)
+
+
+
+* Ｆａbonacci应用转化
+
+
