@@ -1,7 +1,7 @@
 # Algorithms
 ## 剑指Ｏｆｆｅｒ
 
-###　９　斐波那契数列
+### ９　斐波那契数列
 ```
 long long Fibonacci(unsigned int n){
     if (n <= 0)
