@@ -48,7 +48,7 @@ long long Fibonacci(unsigned int n)
 ```
 改进后，由于add1与add2在每次计算中起到暂存的作用，避免了重复计算。之前是随着n的增大，计算量n的指数方。现在为O(n)。空间复杂度也由O(ｎ)到O(1)。
 
-*　装ｘ方法，时间复杂度O(logn)
+* 装ｘ方法，时间复杂度O(logn)
 
 
 
