@@ -51,7 +51,6 @@ long long Fibonacci(unsigned int n)
 * 装ｘ方法，时间复杂度O(logn)
 
 
-
-* Ｆａbonacci应用转化
+* Ｆibonacci应用转化
 
 
