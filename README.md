@@ -28,4 +28,22 @@ long long Fibonacci(unsigned int n){
 
 
 * 改进方法１：
+```
+long long Fibonacci(unsigned int n)
+{
+    
+    if (n<2)
+        return n;
+    long long add1 = 1;
+    long long add2 = 0;
+    long long sum = 0;
+    for(unsigned int i=2; i<=n; ++i)
+    {
+        sum = add1 + add2;
+        add2 = add1;
+        add1 = sum;
+    }
+    return sum;
+}
 
+```
