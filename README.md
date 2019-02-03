@@ -67,4 +67,16 @@ long long Fibonacci(unsigned int n)
 
 * 解法思路：
 * 方法1:相对位移（主定ｆｌａｇ动）
+```
+int Numbit(int n) {
+    int count = 0;
+    unsigned int flag = 1;
+    while(flag) {
+        if (n & flag)   count++;
+        flag = flag << 1;
+    }
+    
+    return count;
+}
+```
 * 方法２：巧用位的加减法
