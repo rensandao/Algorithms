@@ -57,7 +57,7 @@ long long Fibonacci(unsigned int n)
 
 ### 10 二进制中１的个数（位运算）
 
-位运算：
+位运算基本知识：
 
 １．首先理解二进制
 
