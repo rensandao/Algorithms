@@ -55,3 +55,6 @@ long long Fibonacci(unsigned int n)
 * Ｆibonacci应用转化
 
 
+### 10 二进制中１的个数（位运算）
+* 方法1:相对位移（主定ｆｌａｇ动）
+* 方法２：巧用位的加减法
