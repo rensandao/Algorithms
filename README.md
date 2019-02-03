@@ -78,7 +78,8 @@ int BitOp(int n) {
     int count = 0;
     unsigned int flag = 1;
     while(flag) {
-        if (n & flag)   count++;
+        if (n & flag)   
+            count++;
         flag = flag << 1;
     }
     
@@ -86,5 +87,23 @@ int BitOp(int n) {
 }
 ```
 
-
 * 方法２：巧用位的加减法
+
+一个数减去１后的结果与这个数进行＆运算，结果是对二进制最右位清零。如果持续循环，就是不断将１清理为０的过程。可以在这过程中加入计数器，便可以得到二进制位中
+
+有多少个１了。
+
+```
+int BitOp2(int n) {
+    int count = 0;
+    unsigned int flag = 1;
+    while (flag) {
+        if (n & flag)  
+            count++;
+        
+    }
+    
+    return count;
+}
+
+```
